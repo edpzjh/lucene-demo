@@ -26,12 +26,6 @@
     </properties>
 
     <dependencies>
-        <!-- mysql -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-        
         <!-- lucene -->
         <dependency>
             <groupId>org.apache.lucene</groupId>
@@ -48,7 +42,7 @@
             <artifactId>lucene-demo</artifactId>
             <version>${lucene.version}</version>
         </dependency>
-    
+
         <!-- test -->
         <dependency>
             <groupId>org.springframework</groupId>
