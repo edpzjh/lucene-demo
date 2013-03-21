@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.bulain</groupId>
     <artifactId>lucene-demo</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <version>1.0.1-SNAPSHOT</version>
     <url>https://github.com/bulain/lucene-demo</url>
 
@@ -80,6 +80,7 @@
                     </execution>
                 </executions>
             </plugin>
+            <!-- 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-antrun-plugin</artifactId>
@@ -106,6 +107,7 @@
                     </execution>
                 </executions>
             </plugin>
+             -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
