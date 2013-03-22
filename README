@@ -1,0 +1,7 @@
+This is Lucene Demo Project.
+
+If you want to build this project, please follow the next step.
+1, checkout git@github.com:bulain/parent.git
+    mvn install.
+2, checkout git@github.com:bulain/lucene-demo.git
+    mvn eclipse:eclipse
